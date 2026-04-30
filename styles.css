@@ -1,15 +1,15 @@
 :root {
-  --paper: #f6f7f4;
-  --paper-deep: #e8eee9;
-  --ink: #182020;
-  --muted: #64706d;
-  --line: rgba(24, 32, 32, 0.14);
-  --teal: #0d6f69;
+  --paper: #f4f7f7;
+  --paper-deep: #e5ecec;
+  --ink: #142021;
+  --muted: #5d6c6e;
+  --line: rgba(20, 32, 33, 0.14);
+  --teal: #0b716d;
   --coral: #a9483f;
   --gold: #9a6b22;
-  --blue: #254f74;
-  --white: #fbfcf8;
-  --shadow: 0 24px 70px rgba(12, 24, 30, 0.14);
+  --blue: #203f5f;
+  --white: #fbfdfb;
+  --shadow: 0 24px 70px rgba(8, 24, 31, 0.14);
 }
 
 * {
@@ -23,7 +23,11 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  background: var(--paper);
+  background:
+    linear-gradient(rgba(20, 32, 33, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(20, 32, 33, 0.025) 1px, transparent 1px),
+    var(--paper);
+  background-size: 48px 48px;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.6;
@@ -57,7 +61,7 @@ a {
 .site-header.is-scrolled,
 .site-header.is-open {
   color: var(--ink);
-  background: rgba(247, 242, 234, 0.9);
+  background: rgba(244, 247, 247, 0.9);
   box-shadow: 0 1px 0 var(--line);
   backdrop-filter: blur(18px);
 }
@@ -140,8 +144,8 @@ a {
 
 .hero-overlay {
   background:
-    linear-gradient(90deg, rgba(10, 24, 28, 0.84) 0%, rgba(10, 24, 28, 0.48) 43%, rgba(10, 24, 28, 0.12) 100%),
-    linear-gradient(0deg, rgba(10, 24, 28, 0.44), rgba(10, 24, 28, 0.06));
+    linear-gradient(90deg, rgba(8, 23, 31, 0.88) 0%, rgba(8, 23, 31, 0.58) 44%, rgba(8, 23, 31, 0.16) 100%),
+    linear-gradient(0deg, rgba(8, 23, 31, 0.5), rgba(8, 23, 31, 0.06));
 }
 
 .hero-content {
@@ -161,7 +165,7 @@ a {
 }
 
 .hero .eyebrow {
-  color: #8fe1d7;
+  color: #9be3dc;
 }
 
 h1,
@@ -325,12 +329,12 @@ h3 {
 }
 
 .work {
-  background: #142326;
+  background: #10242b;
   color: var(--white);
 }
 
 .work .section-kicker {
-  color: #8fe1d7;
+  color: #9be3dc;
 }
 
 .work-list {
@@ -347,7 +351,7 @@ h3 {
 }
 
 .work-item:hover {
-  color: #8fe1d7;
+  color: #9be3dc;
   padding-left: 12px;
 }
 
@@ -362,7 +366,7 @@ h3 {
 }
 
 .about {
-  background: linear-gradient(90deg, var(--paper-deep), #f0f3f0);
+  background: linear-gradient(90deg, var(--paper-deep), #eef3f2);
 }
 
 .education {
