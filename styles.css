@@ -365,6 +365,44 @@ h3 {
   background: linear-gradient(90deg, var(--paper-deep), #f0f3f0);
 }
 
+.education {
+  background: var(--paper);
+}
+
+.timeline {
+  border-top: 1px solid var(--line);
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.timeline-item div {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.34fr) minmax(220px, 0.36fr) minmax(240px, 1fr);
+  gap: 18px;
+  align-items: baseline;
+}
+
+.timeline-date {
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.timeline-item h3 {
+  font-size: 24px;
+}
+
+.timeline-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+
 .about-copy p {
   margin: 0 0 20px;
 }
@@ -482,8 +520,13 @@ h3 {
   .intro,
   .about,
   .expertise-grid,
+  .timeline-item div,
   .notes {
     grid-template-columns: 1fr;
+  }
+
+  .timeline-item div {
+    gap: 8px;
   }
 
   .section-heading,
