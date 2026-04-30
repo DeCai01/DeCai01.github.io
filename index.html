@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="个人学术主页，包含研究方向、发表论文与联系方式。" />
+    <title>个人学术主页 | Research Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="返回首页">
+        <span class="brand-mark">R</span>
+        <span>Research Portfolio</span>
+      </a>
+
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#research">研究</a>
+        <a href="#publications">论文</a>
+        <a href="#about">简介</a>
+        <a href="https://scholar.google.com/citations?hl=en&user=zyVRiAcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer">Scholar</a>
+        <a href="#contact">联系</a>
+      </nav>
+
+      <button class="menu-button" type="button" data-menu-button aria-label="打开菜单">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/hero-workspace.png"
+          alt="阳光下的现代工作台，有电脑、笔记本和创作工具"
+        />
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Academic Profile / Publications / Research</p>
+          <h1 id="hero-title">面向长期问题的研究主页。</h1>
+          <p class="hero-copy">
+            这里汇集研究方向、代表性论文、学术资料与联系方式。页面保持克制、清晰，方便同行快速了解研究脉络。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#publications">查看论文</a>
+            <a class="button secondary" href="https://scholar.google.com/citations?hl=en&user=zyVRiAcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer">Google Scholar</a>
+          </div>
+        </div>
+
+        <aside class="hero-status" aria-label="当前状态">
+          <span>当前状态</span>
+          <strong>持续更新发表与研究进展</strong>
+        </aside>
+      </section>
+
+      <section class="section intro" aria-label="简介">
+        <div>
+          <p class="section-kicker">Overview</p>
+          <h2>用可复现的方法、清楚的问题意识和持续发表组织研究工作。</h2>
+        </div>
+        <p>
+          这是一个偏学术风格的个人主页骨架。你可以将姓名、机构、研究领域、论文列表和联系方式替换为真实信息；完整发表记录已连接到 Google Scholar。
+        </p>
+      </section>
+
+      <section class="section expertise" id="research" aria-labelledby="expertise-title">
+        <div class="section-heading">
+          <p class="section-kicker">Research</p>
+          <h2 id="expertise-title">研究方向</h2>
+        </div>
+
+        <div class="expertise-grid">
+          <article>
+            <span class="icon-dot teal"></span>
+            <h3>Research Theme I</h3>
+            <p>概述第一个长期研究主题，例如方法、系统、模型、实验平台或应用场景。</p>
+          </article>
+          <article>
+            <span class="icon-dot coral"></span>
+            <h3>Research Theme II</h3>
+            <p>说明第二个研究方向的核心问题、常用方法与代表性成果。</p>
+          </article>
+          <article>
+            <span class="icon-dot ink"></span>
+            <h3>Research Theme III</h3>
+            <p>放置跨学科合作、数据集、开源工具或面向真实场景的研究线索。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section work" id="publications" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="section-kicker">Publications</p>
+          <h2 id="work-title">精选发表</h2>
+        </div>
+
+        <div class="work-list">
+          <a class="work-item" href="https://scholar.google.com/citations?hl=en&user=zyVRiAcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer" aria-label="在 Google Scholar 查看论文列表">
+            <span>01</span>
+            <div>
+              <h3>代表性论文一</h3>
+              <p>请替换为论文标题、作者、会议或期刊、年份；完整记录见 Google Scholar。</p>
+            </div>
+          </a>
+          <a class="work-item" href="https://scholar.google.com/citations?hl=en&user=zyVRiAcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer" aria-label="在 Google Scholar 查看论文列表">
+            <span>02</span>
+            <div>
+              <h3>代表性论文二</h3>
+              <p>可补充共同一作、通讯作者、代码、数据集、项目主页或 PDF 链接。</p>
+            </div>
+          </a>
+          <a class="work-item" href="https://scholar.google.com/citations?hl=en&user=zyVRiAcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer" aria-label="在 Google Scholar 查看论文列表">
+            <span>03</span>
+            <div>
+              <h3>代表性论文三</h3>
+              <p>建议按最新发表或最能体现研究主线的成果排序展示。</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="section-kicker">Bio</p>
+          <h2 id="about-title">学术简介</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            在这里放置你的姓名、当前职称、机构、教育经历和研究兴趣。建议控制在 120 到 180 字，突出当前研究主线与代表性成果。
+          </p>
+          <p>
+            也可以补充正在招募的学生、合作方向、开源项目或近期服务经历，例如审稿、程序委员会、教学或学术组织工作。
+          </p>
+        </div>
+      </section>
+
+      <section class="section journal" aria-labelledby="journal-title">
+        <div class="section-heading">
+          <p class="section-kicker">Academic Links</p>
+          <h2 id="journal-title">学术资料</h2>
+        </div>
+        <div class="notes">
+          <article>
+            <time datetime="2026-04-30">Profile</time>
+            <h3><a href="https://scholar.google.com/citations?hl=en&user=zyVRiAcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer">Google Scholar publication list</a></h3>
+          </article>
+          <article>
+            <time datetime="2026-04-30">Materials</time>
+            <h3>CV, lab page, ORCID, GitHub 或个人简历链接可放在这里。</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">欢迎交流研究、论文与合作。</h2>
+          <p>请将这里替换为你的机构邮箱，也可以补充办公室、实验室主页或招生信息。</p>
+        </div>
+        <a class="contact-link" href="mailto:your.email@example.com">your.email@example.com</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Research Portfolio</span>
+      <a href="#home">回到顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
